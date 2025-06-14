@@ -1,0 +1,12 @@
+<div
+  #OmCircularText
+  class="om-circular-text"
+  [ngClass]="styleClass"
+  [ngStyle]="style()"
+>
+  @for (letter of letters(); track $index) {
+    <span class="om-circular-text-letter" [ngStyle]="letterStyles()[$index]">
+      {{ letter }}
+    </span>
+  }
+</div>

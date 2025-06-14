@@ -1,0 +1,24 @@
+.om-circular-text {
+  --om-circular-text-size: 200px;
+
+  width: var(--om-circular-text-size);
+  height: var(--om-circular-text-size);
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  transform-origin: 50% 50%;
+
+  .om-circular-text-letter {
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    transition: all 0.5s cubic-bezier(0, 0, 0, 1);
+  }
+}

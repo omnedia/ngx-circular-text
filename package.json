@@ -1,0 +1,27 @@
+{
+  "name": "@omnedia/ngx-circular-text",
+  "description": "Provides a performant animated circular text component.",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@angular/common": "^18.0.0",
+    "@angular/core": "^18.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "keywords": [
+    "npm",
+    "words",
+    "text",
+    "split",
+    "circle",
+    "circular",
+    "animation"
+  ],
+  "repository": {
+    "url": "https://github.com/omnedia/ngx-circular-text"
+  },
+  "author": "Markus Block (markus.block@omnedia.com)",
+  "license": "MIT"
+}
